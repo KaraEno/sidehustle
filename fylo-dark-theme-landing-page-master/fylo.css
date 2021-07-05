@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    background-color: hsl(217, 28%, 15%);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Raleway', sans-serif;
+}
+.flex{
+display: flex;
+justify-content: space-between;
+}
+nav{
+    margin-top: 20px;
+    background-color: hsl(217, 28%, 15%);
+}
+.nav-links{
+    padding: 10px;
+    margin: 10px;
+}
+.nav-links span{
+    margin-right: 25px;
+    
+}
+.nav-links span a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links span a:focus{
+    text-decoration: underline;
+}
+.centre{
+text-align: center;
+margin: auto;
+background-color: hsl(217, 28%, 15%);
+}
+.intro{
+    width: 300px;
+
+}
+
+main{
+    background-color: hsl(219, 30%, 18%);
+}
+.centre button{
+    background-color: rgb(25, 147, 196);
+    color: white;
+    width: 12em;
+    padding: 0.5em 1.5em;
+    border-radius: 20px;
+    border: 1px solid rgb(25, 147, 196);
+    margin-bottom: 100px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+}
+.stay{
+    width: 300px;
+}
+.pad{
+    margin-top: 40px;
+}
+.ceo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.flex3{
+    display: flex;
+}
+.pad3{
+    margin-right: 20px;
+    padding: 10px;
+    z-index: 2;
+    background-color: hsl(219, 30%, 18%);
+}
+.flex4{
+    margin: 40px;
+    text-align: center;
+}
+.quote{
+    z-index: 0;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.center2{
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    top: 80px;
+}
+.blue-link{
+    color: rgb(25, 147, 196);
+}
+.pad5{
+    margin: 0px 120px;
+    padding-bottom: 40px;
+    z-index: 2;
+    background-color: hsl(217, 28%, 15%);
+}
+.center2 input{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 30%;
+}
+.center2 button {
+     background-color: rgb(25, 147, 196);
+     color: white;
+     padding: 10px 20px;
+     border-radius: 20px;
+     border: 1px solid rgb(25, 147, 196);
+}
+.flex5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+}
+.fas{
+    padding-right: 10px;
+}
+footer{
+    padding: 60px 30px 60px 60px;
+    z-index: 0;
+    background-color:  hsl(216, 53%, 9%);
+}
+@media only screen and (max-width: 375px){
+    .flex2
+    {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .access{
+        margin: 20px 30px;
+    }
+    .flex2 div{
+        margin-top: 80px;
+    }
+    .pad{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .stay{
+        text-align: center;
+        margin: auto;
+    }
+    .flex3{
+        display: block;
+    }
+    .pad3{
+        position: relative;
+        bottom: 50%;
+        margin-bottom: 30px;
+        background-color:  hsl(217, 28%, 15%);
+    }
+    .pad5{
+        padding: 20px 30px;
+        width: 80%;
+        box-sizing: border-box;
+        margin: auto;
+        display: block;
+    }
+    .pad5 button{
+        width: 220px;
+    }
+    .pad5 input{
+        width: 180px;
+        margin-bottom: 20px;
+    }
+section br{
+    display: none;
+}
+.flex5{
+    display: block;
+    margin: 0;
+}
+.space{
+    margin-bottom: 30px;
+}
+.centre{
+    padding: 30px;
+}
+footer h1{
+    margin-top: 80px;
+}
+}
