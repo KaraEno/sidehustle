@@ -17,6 +17,10 @@ h5,
 h6{
     font-family: 'Raleway', sans-serif;
 }
+.access{
+    margin: 40px;
+    padding-top: 40px;
+}
 .flex{
 display: flex;
 justify-content: space-between;
@@ -141,6 +145,9 @@ main{
     border: 1px solid white;
     border-radius: 50px;
     padding: 5px;
+}
+footer h1{
+    padding-top: 80px;
 }
 .fas{
     padding-right: 10px;
